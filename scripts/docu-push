@@ -1,0 +1,7 @@
+#!/bin/bash
+cd "$(dirname "$0")/../docusaurus-site"
+npm run build
+cd ..
+git add .
+git commit -m "Deploy updated Docusaurus site"
+git push origin stage
