@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ./docusaurus-site
+cd "$(dirname "$0")/../docusaurus-site"
 npm run build
 cd ..
 git add .
