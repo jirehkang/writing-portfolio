@@ -1,1 +1,1 @@
-# jirehkang-tech-writing-portfolio
+# Jireh Kang's Technical Writing Portfolio
