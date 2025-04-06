@@ -1,1 +1,0 @@
-# Jireh Kang's Technical Writing Portfolio

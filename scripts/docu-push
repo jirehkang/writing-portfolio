@@ -1,9 +1,0 @@
-#!/bin/bash
-cd "$(dirname "$0")/../docusaurus-site"
-npm run build
-cd ..
-git add .
-echo "Enter a commit message:"
-read COMMIT_MESSAGE
-git commit -m "$COMMIT_MESSAGE"
-git push origin stage
