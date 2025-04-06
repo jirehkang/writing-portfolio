@@ -3,9 +3,9 @@ facebook:
   permalink: /facebook
   description: Facebook tag description
 
-hello:
-  label: Hello
-  permalink: /hello
+github:
+  label: github
+  permalink: /github
   description: Hello tag description
 
 docusaurus:

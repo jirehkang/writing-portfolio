@@ -77,7 +77,7 @@ const config = {
 			// Replace with your project's social card
 			image: "img/docusaurus-social-card.jpg",
 			navbar: {
-				title: "My Site",
+				title: "Jireh's Portfolio",
 				logo: {
 					alt: "My Site Logo",
 					src: "img/logo.svg",
@@ -87,11 +87,11 @@ const config = {
 						type: "docSidebar",
 						sidebarId: "tutorialSidebar",
 						position: "left",
-						label: "Tutorial",
+						label: "Writings",
 					},
 					{ to: "/blog", label: "Blog", position: "left" },
 					{
-						href: "https://github.com/facebook/docusaurus",
+						href: "https://github.com/jirehkang/writing-portfolio",
 						label: "GitHub",
 						position: "right",
 					},
@@ -99,48 +99,48 @@ const config = {
 			},
 			footer: {
 				style: "dark",
-				links: [
-					{
-						title: "Docs",
-						items: [
-							{
-								label: "Tutorial",
-								to: "/docs/intro",
-							},
-						],
-					},
-					{
-						title: "Community",
-						items: [
-							{
-								label: "Stack Overflow",
-								href: "https://stackoverflow.com/questions/tagged/docusaurus",
-							},
-							{
-								label: "Discord",
-								href: "https://discordapp.com/invite/docusaurus",
-							},
-							{
-								label: "X",
-								href: "https://x.com/docusaurus",
-							},
-						],
-					},
-					{
-						title: "More",
-						items: [
-							{
-								label: "Blog",
-								to: "/blog",
-							},
-							{
-								label: "GitHub",
-								href: "https://github.com/facebook/docusaurus",
-							},
-						],
-					},
-				],
-				copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+				// links: [
+				// 	{
+				// 		title: "Docs",
+				// 		items: [
+				// 			{
+				// 				label: "Writings",
+				// 				to: "/docs/intro",
+				// 			},
+				// 		],
+				// 	},
+				// 	{
+				// 		title: "Community",
+				// 		items: [
+				// 			{
+				// 				label: "Stack Overflow",
+				// 				href: "https://stackoverflow.com/questions/tagged/docusaurus",
+				// 			},
+				// 			{
+				// 				label: "Discord",
+				// 				href: "https://discordapp.com/invite/docusaurus",
+				// 			},
+				// 			{
+				// 				label: "X",
+				// 				href: "https://x.com/docusaurus",
+				// 			},
+				// 		],
+				// 	},
+				// 	{
+				// 		title: "More",
+				// 		items: [
+				// 			{
+				// 				label: "Blog",
+				// 				to: "/blog",
+				// 			},
+				// 			{
+				// 				label: "GitHub",
+				// 				href: "https://github.com/jirehkang/writing-portfolio",
+				// 			},
+				// 		],
+				// 	},
+				// ],
+				copyright: `Copyright © ${new Date().getFullYear()} Jireh's Writing Portfolio. Built with Docusaurus.`,
 			},
 			prism: {
 				theme: prismThemes.github,

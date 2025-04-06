@@ -1,7 +1,6 @@
 ---
-slug: long-blog-post
-title: Long Blog Post
-authors: yangshun
+slug: github-profile
+title: Creating GitHub Profile for Technical Writers
 tags: [docusaurus]
 ---
 
