@@ -1,4 +1,4 @@
-# Jireh Kang's Writing Portfolio
+# Jireh Kang's Writing Portfolio (🚧 Under Construction 🚧)
 
 Welcome to my technical & UX writing portfolio — a curated collection of writing samples, documentation projects, and UX content I've created.
 
