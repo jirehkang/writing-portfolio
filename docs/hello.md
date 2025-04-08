@@ -4,7 +4,6 @@ title: My document title
 description: My document description
 slug: /my-custom-url
 sidebar_label: 'Hi!'
-sidebar_position: 3
 ---
 
 # Hello
