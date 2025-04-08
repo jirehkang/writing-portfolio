@@ -12,7 +12,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
 	title: "Jireh's Writing Portfolio",
 	tagline: "Technical Writing, UX Writing, and More",
-	favicon: "img/favicon.ico",
+	favicon: "img/favicon-j.ico",
 
 	// Set the production url of your site here
 	url: "https://jirehkang.github.io",
@@ -73,10 +73,10 @@ const config = {
 			// Replace with your project's social card
 			image: "img/docusaurus-social-card.jpg",
 			navbar: {
-				title: "Jireh's Portfolio",
+				title: "Home",
 				logo: {
 					alt: "My Site Logo",
-					src: "img/logo.svg",
+					src: "img/logo-j.svg",
 				},
 				items: [
 					{
