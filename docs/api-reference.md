@@ -1,13 +1,10 @@
 ---
-id: api-sdk-docs
-title: API & SDK docs for Polls
-description: Sendbird | Summer 2022 
-slug: /api-sdk-docs
-sidebar_label: 'API & SDK docs'
+description: Sendbird | June 2022
 sidebar_position: 1
+sidebar_label: 'API reference'
 ---
 
-# API & SDK docs for Polls
+# API reference for Polls
 
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
@@ -51,8 +48,6 @@ For each action, I wrote clear and accurate descriptions of endpoints, parameter
 
 Based on the API reference, I created platform-specific guides for iOS, Android, and JavaScript developers. 
 These platform-specific guides focused on practical integration steps, complete with code snippets from the engineering team to support real-world implementation.
-
-![Screenshot of the iOS SDK doc for creating a poll](./img/iOS-PollCreateParams.png)
 
 ## Outcome 
 
