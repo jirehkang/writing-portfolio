@@ -1,6 +1,6 @@
 # Jireh Kang's Writing Portfolio
 
-Welcome to my technical writing portfolio — a curated collection of writing samples, documentation projects, and UX content I've created.
+Welcome to my writing portfolio — a curated collection of technical and UX writing samples.
 
 Built with [Docusaurus](https://docusaurus.io/), this site demonstrates my ability to work with static site generators and my understanding of front-end technologies like HTML, CSS, JavaScript, and React.
 

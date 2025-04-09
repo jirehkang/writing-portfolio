@@ -3,6 +3,8 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import IntroSection from "@site/src/components/IntroSection";
+import ProjectsSection from "@site/src/components/ProjectsSection";
 import AboutSection from "@site/src/components/AboutSection";
 
 import Heading from "@theme/Heading";
@@ -35,14 +37,18 @@ export default function Home() {
 	return (
 		<Layout
 			title={`${siteConfig.title}`}
-			description="Description will go into a meta tag in <head />"
+			description="Jireh Kang's Portfolio<head />"
 		>
-			<HomepageHeader />
+			<IntroSection />
+			<ProjectsSection />
+			<AboutSection />
+			{/*<HomepageHeader />
 			<main>
 				<HomepageFeatures />
-				{/* <AboutSection />
-				 */}
+				 
+				
 			</main>
+			*/}
 		</Layout>
 	);
 }
