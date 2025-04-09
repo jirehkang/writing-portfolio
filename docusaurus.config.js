@@ -44,10 +44,12 @@ const config = {
 			({
 				docs: {
 					sidebarPath: "./sidebars.js",
+					routeBasePath: "/projects",
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 				},
-				blog: {
+				blog: false,
+				/*	{
 					showReadingTime: true,
 					feedOptions: {
 						type: ["rss", "atom"],
@@ -59,7 +61,7 @@ const config = {
 					onInlineTags: "warn",
 					onInlineAuthors: "warn",
 					onUntruncatedBlogPosts: "warn",
-				},
+				}, */
 				theme: {
 					customCss: "./src/css/custom.css",
 				},
@@ -73,7 +75,7 @@ const config = {
 			// Replace with your project's social card
 			image: "img/docusaurus-social-card.jpg",
 			navbar: {
-				title: "Home",
+				title: "Jireh's Portfolio",
 				logo: {
 					alt: "My Site Logo",
 					src: "img/logo-j.svg",
@@ -83,9 +85,9 @@ const config = {
 						type: "docSidebar",
 						sidebarId: "tutorialSidebar",
 						position: "left",
-						label: "Writings",
+						label: "Projects",
 					},
-					{ to: "/blog", label: "Blog", position: "left" },
+					// { to: "/blog", label: "Blog", position: "left" },
 					{
 						href: "https://github.com/jirehkang/writing-portfolio",
 						label: "GitHub",
