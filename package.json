@@ -16,10 +16,13 @@
   "dependencies": {
     "@docusaurus/core": "3.7.0",
     "@docusaurus/preset-classic": "3.7.0",
+    "@lottiefiles/dotlottie-react": "^0.13.3",
+    "@lottiefiles/lottie-player": "^2.0.12",
     "@mdx-js/react": "^3.0.0",
     "@react-spring/parallax": "^9.7.5",
     "@react-spring/web": "^9.7.5",
     "clsx": "^2.0.0",
+    "lottie-react": "^2.4.1",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

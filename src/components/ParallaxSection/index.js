@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import styles from "./ParallaxSection.module.css";
+import ScrollIcon from "../ScrollIcon";
 
 export default function ParallaxSection() {
 	const alignCenter = { display: "flex", alignItems: "center" };
@@ -22,6 +23,14 @@ export default function ParallaxSection() {
 							<p className={styles.jobTitle}>Writer</p>
 						</div>
 					</div>
+				</ParallaxLayer>
+
+				<ParallaxLayer
+					offset={0.35}
+					speed={0.5}
+					style={{ ...alignCenter, justifyContent: "center" }}
+				>
+					<ScrollIcon></ScrollIcon>
 				</ParallaxLayer>
 
 				<ParallaxLayer
