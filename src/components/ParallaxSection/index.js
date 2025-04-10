@@ -38,27 +38,26 @@ export default function ParallaxSection() {
 					speed={0.5}
 					style={{ ...alignCenter, justifyContent: "center" }}
 				>
-					<div className={styles.sectionTitle}>
-						<p>Work</p>
-					</div>
 					<section className={styles.cardContainer}>
-						<div className={`${styles.card} ${styles.purple}`}>
-							<p>I'm not</p>
+						<div className={styles.card}>
+							<p className={styles.cardTitle}>API reference</p>
 						</div>
-						<div className={`${styles.card} ${styles.purple}`}>
-							<p>I'm not</p>
+						<div className={styles.card}>
+							<p className={styles.cardTitle}>SDK documentation</p>
 						</div>
-						<div className={`${styles.card} ${styles.purple}`}>
-							<p>I'm not</p>
+						<a href="http://localhost:3000/writing-portfolio/projects/user-guide">
+							<div className={styles.card}>
+								<p className={styles.cardTitle}>User guide</p>
+							</div>
+						</a>
+						<div className={styles.card}>
+							<p className={styles.cardTitle}>Concept explainer</p>
 						</div>
-						<div className={`${styles.card} ${styles.purple}`}>
-							<p>I'm not</p>
+						<div className={styles.card}>
+							<p className={styles.cardTitle}>Method terminology</p>
 						</div>
-						<div className={`${styles.card} ${styles.purple}`}>
-							<p>I'm not</p>
-						</div>
-						<div className={`${styles.card} ${styles.purple}`}>
-							<p>I'm not</p>
+						<div className={styles.card}>
+							<p className={styles.cardTitle}>UX writing</p>
 						</div>
 					</section>
 				</ParallaxLayer>
