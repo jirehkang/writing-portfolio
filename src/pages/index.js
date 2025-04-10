@@ -33,22 +33,14 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-	const { siteConfig } = useDocusaurusContext();
 	return (
-		<Layout
-			title={`${siteConfig.title}`}
-			description="Jireh Kang's Portfolio<head />"
-		>
-			<IntroSection />
-			<ProjectsSection />
-			<AboutSection />
-			{/*<HomepageHeader />
+		<Layout title="Jireh Kang" description="Technical Writer">
 			<main>
+				<IntroSection />
+				<ProjectsSection />
+				<AboutSection />
 				<HomepageFeatures />
-				 
-				
 			</main>
-			*/}
 		</Layout>
 	);
 }

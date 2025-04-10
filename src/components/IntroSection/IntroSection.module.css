@@ -1,5 +1,8 @@
 .introSection {
     min-height: 100vh;
     padding: 4rem 2rem;
-    background-color: #dad7cd;
   }
+
+.name {
+  color: #a3b18a;
+}

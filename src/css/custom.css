@@ -39,3 +39,7 @@ html, body {
 }
 
 
+.background {
+  background: linear-gradient(to bottom right, #9FFDF8, #EFE8E8, #C27DFB);
+}
+
