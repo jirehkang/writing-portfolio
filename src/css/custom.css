@@ -10,7 +10,7 @@
  
 :root {
   --ifm-font-family-base: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #b031ae;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -24,6 +24,14 @@
 html, body {
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
+
+a {
+  color: var(--ifm-link-color);
+  /* autoprefixer: ignore next */
+  text-decoration: var(--ifm-link-decoration);
+  transition: color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {

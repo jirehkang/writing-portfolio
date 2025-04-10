@@ -7,7 +7,7 @@ export default function ParallaxSection() {
 	const alignCenter = { display: "flex", alignItems: "center" };
 	return (
 		<div className={styles.background}>
-			<Parallax pages={4}>
+			<Parallax pages={3}>
 				<ParallaxLayer
 					offset={0}
 					speed={0.5}
@@ -38,27 +38,47 @@ export default function ParallaxSection() {
 					speed={0.5}
 					style={{ ...alignCenter, justifyContent: "center" }}
 				>
+					<section className={styles.sectionTitle}>
+						<p>Work</p>
+					</section>
+				</ParallaxLayer>
+
+				<ParallaxLayer
+					offset={1.2}
+					speed={0.5}
+					style={{ ...alignCenter, justifyContent: "center" }}
+				>
 					<section className={styles.cardContainer}>
-						<div className={styles.card}>
-							<p className={styles.cardTitle}>API reference</p>
-						</div>
-						<div className={styles.card}>
-							<p className={styles.cardTitle}>SDK documentation</p>
-						</div>
-						<a href="http://localhost:3000/writing-portfolio/projects/user-guide">
+						<a href="https://jirehkang.github.io/writing-portfolio/projects/api-reference">
+							<div className={styles.card}>
+								<p className={styles.cardTitle}>API reference</p>
+							</div>
+						</a>
+						<a href="https://jirehkang.github.io/writing-portfolio/projects/sdk-documentation">
+							<div className={styles.card}>
+								<p className={styles.cardTitle}>SDK documentation</p>
+							</div>
+						</a>
+						<a href="https://jirehkang.github.io/writing-portfolio/projects/user-guide">
 							<div className={styles.card}>
 								<p className={styles.cardTitle}>User guide</p>
 							</div>
 						</a>
-						<div className={styles.card}>
-							<p className={styles.cardTitle}>Concept explainer</p>
-						</div>
-						<div className={styles.card}>
-							<p className={styles.cardTitle}>Method terminology</p>
-						</div>
-						<div className={styles.card}>
-							<p className={styles.cardTitle}>UX writing</p>
-						</div>
+						<a href="https://jirehkang.github.io/writing-portfolio/projects/concept-explainer">
+							<div className={styles.card}>
+								<p className={styles.cardTitle}>Concept explainer</p>
+							</div>
+						</a>
+						<a href="https://jirehkang.github.io/writing-portfolio/projects/method-terminology">
+							<div className={styles.card}>
+								<p className={styles.cardTitle}>Method terminology</p>
+							</div>
+						</a>
+						<a href="https://jirehkang.github.io/writing-portfolio//projects/ux-writing">
+							<div className={styles.card}>
+								<p className={styles.cardTitle}>UX writing</p>
+							</div>
+						</a>
 					</section>
 				</ParallaxLayer>
 
@@ -67,9 +87,9 @@ export default function ParallaxSection() {
 					speed={0.5}
 					style={{ ...alignCenter, justifyContent: "center" }}
 				>
-					<div className={styles.sectionTitle}>
+					<section className={styles.sectionTitle}>
 						<p>About me</p>
-					</div>
+					</section>
 				</ParallaxLayer>
 			</Parallax>
 		</div>
