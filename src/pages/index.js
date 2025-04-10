@@ -35,12 +35,7 @@ function HomepageHeader() {
 export default function Home() {
 	return (
 		<Layout title="Jireh Kang" description="Technical Writer">
-			<main>
-				<IntroSection />
-				<ProjectsSection />
-				<AboutSection />
-				<HomepageFeatures />
-			</main>
+			<main></main>
 		</Layout>
 	);
 }
