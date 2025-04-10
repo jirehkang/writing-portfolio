@@ -7,9 +7,6 @@ body {
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
-  background: 
-    linear-gradient(to bottom right, #9FFDF8, #EFE8E8, #C27DFB), 
-    url(./noise.svg);
 }
 
 /* Docusaurus-specific utility class */

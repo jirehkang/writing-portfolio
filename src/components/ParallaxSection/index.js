@@ -7,44 +7,61 @@ export default function ParallaxSection() {
 	return (
 		<div>
 			<div className={styles.background} />
-			<Parallax pages={5}>
+			<Parallax pages={3}>
 				<ParallaxLayer
 					offset={0}
 					speed={0.5}
 					style={{ ...alignCenter, justifyContent: "center" }}
 				>
 					<div className={styles.introText}>
-						<p className={styles.myName}>Jireh Kang</p>
-						<p className={styles.jobTitle}>Technical Writer</p>
+						<div className={styles.introTextContainer}>
+							<p className={styles.myName}>Jireh</p>
+							<p className={styles.myName}>Kang</p>
+						</div>
+						<div className={styles.introTextContainer}>
+							<p className={styles.jobTitle}>Technical</p>
+							<p className={styles.jobTitle}>Writer</p>
+						</div>
 					</div>
 				</ParallaxLayer>
 
 				<ParallaxLayer
-					sticky={{ start: 1, end: 3 }}
-					style={{ ...alignCenter, justifyContent: "flex-start" }}
+					offset={1}
+					speed={0.5}
+					style={{ ...alignCenter, justifyContent: "center" }}
 				>
-					<div className={`${styles.card} ${styles.sticky}`}>
-						<p>I'm a sticky layer</p>
+					<div className={styles.sectionTitle}>
+						<p>Work</p>
 					</div>
+					<section className={styles.cardContainer}>
+						<div className={`${styles.card} ${styles.purple}`}>
+							<p>I'm not</p>
+						</div>
+						<div className={`${styles.card} ${styles.purple}`}>
+							<p>I'm not</p>
+						</div>
+						<div className={`${styles.card} ${styles.purple}`}>
+							<p>I'm not</p>
+						</div>
+						<div className={`${styles.card} ${styles.purple}`}>
+							<p>I'm not</p>
+						</div>
+						<div className={`${styles.card} ${styles.purple}`}>
+							<p>I'm not</p>
+						</div>
+						<div className={`${styles.card} ${styles.purple}`}>
+							<p>I'm not</p>
+						</div>
+					</section>
 				</ParallaxLayer>
 
 				<ParallaxLayer
-					offset={1.5}
-					speed={1.5}
-					style={{ ...alignCenter, justifyContent: "flex-end" }}
+					offset={2}
+					speed={0.5}
+					style={{ ...alignCenter, justifyContent: "center" }}
 				>
-					<div className={`${styles.card} ${styles.parallax} ${styles.purple}`}>
-						<p>I'm not</p>
-					</div>
-				</ParallaxLayer>
-
-				<ParallaxLayer
-					offset={2.5}
-					speed={1.5}
-					style={{ ...alignCenter, justifyContent: "flex-end" }}
-				>
-					<div className={`${styles.card} ${styles.parallax} ${styles.blue}`}>
-						<p>Neither am I</p>
+					<div className={styles.sectionTitle}>
+						<p>About me</p>
 					</div>
 				</ParallaxLayer>
 			</Parallax>
