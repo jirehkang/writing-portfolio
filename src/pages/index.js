@@ -3,9 +3,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
-import IntroSection from "@site/src/components/IntroSection";
-import ProjectsSection from "@site/src/components/ProjectsSection";
-import AboutSection from "@site/src/components/AboutSection";
+import ParallaxSection from "@site/src/components/ParallaxSection";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
@@ -33,22 +31,5 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-	const { siteConfig } = useDocusaurusContext();
-	return (
-		<Layout
-			title={`${siteConfig.title}`}
-			description="Jireh Kang's Portfolio<head />"
-		>
-			<IntroSection />
-			<ProjectsSection />
-			<AboutSection />
-			{/*<HomepageHeader />
-			<main>
-				<HomepageFeatures />
-				 
-				
-			</main>
-			*/}
-		</Layout>
-	);
+	return <ParallaxSection />;
 }
