@@ -3,6 +3,73 @@
  * and scoped locally.
  */
 
+ .background {
+  background: linear-gradient(to bottom right, #9FFDF8, #EFE8E8, #C27DFB);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.introText {
+display: flex;
+flex-direction: column;
+align-items: center; /* optional: centers text horizontally */
+margin: 25%;
+}
+
+.introTextContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;         /* space between the names */
+    justify-content: center; /* center horizontally */
+    align-items: baseline;   /* align text on the same line */
+    margin: 5%
+}
+
+.myName {
+  font-size: clamp(4rem, 10vw, 8rem);
+  margin: 0;
+}
+
+.jobTitle {
+  font-size: clamp(1.5rem, 2.5vw, 4rem);
+  margin: 0;
+}
+
+.card {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.25rem;
+height: 10rem;
+width: 25%;
+text-align: center;
+border-radius: 10px;
+}
+
+
+.parallax {
+margin-right: 15%;
+}
+
+.sticky {
+margin-left: 15%;
+background-color: #ff6d6d;
+}
+
+.blue {
+background-color: #5b65ad;
+color: white;
+}
+
+.purple {
+background-color: #9d65d0;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
