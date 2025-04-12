@@ -3,8 +3,8 @@ import styles from "./IntroSection.module.css";
 
 export default function IntroSection() {
 	return (
-		<div className={styles.background}>
-			<section className={styles.introText}>
+		<div className={styles.introContainer}>
+			<section className={styles.introSection}>
 				<div className={styles.introTextContainer}>
 					<p className={styles.myName}>Jireh</p>
 					<p className={styles.myName}>Kang</p>

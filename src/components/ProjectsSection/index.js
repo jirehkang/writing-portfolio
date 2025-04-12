@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./ProjectsSection.module.css";
+import Link from "@docusaurus/Link";
 
 export default function ProjectsSection() {
 	return (

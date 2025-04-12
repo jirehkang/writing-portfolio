@@ -18,11 +18,58 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
+  --ifm-button-background-color: #051b0f;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 html, body {
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed; /* Fix the navbar at the top */
+  top: 2%; /* Align it to the top of the viewport */
+  left: 0; /* Align it to the left */
+  right: 0; /* Align it to the right */
+  z-index: 1000; /* Ensure it stays above other elements */
+  background-color: #ffffff; /* Light mode background */
+  color: #000000; /* Light mode text color */
+  border-radius: 16px;
+  margin: 0 4.5% 0 4.5%; /* Remove margin to avoid gaps */
+  padding: 1rem 1rem; /* Add padding for spacing */
+}
+
+[data-theme='dark'] .navbar {
+  background-color: #1a1a1a; /* Dark mode background */
+  color: #ffffff; /* Dark mode text color */
+}
+
+body {
+  padding-top: 80px; /* Default padding to prevent overlap */
+}
+
+/* Adjust padding for smaller screens */
+@media (max-width: 768px) {
+  body {
+    padding-top: 100px; /* Increase padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-top: 120px; /* Further increase padding for very small screens */
+  }
+}
+
+.footer {
+  background-color: #ffffff; /* Light mode background */
+  color: #000000; /* Light mode text color */
+  padding: 2rem 0; /* Add padding */
+}
+
+[data-theme='dark'] .footer {
+  background-color: #1a1a1a; /* Dark mode background */
+  color: #ffffff; /* Dark mode text color */
 }
 
 a {
