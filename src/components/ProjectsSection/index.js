@@ -17,27 +17,31 @@ export default function ProjectsSection() {
 				<a className={styles.card} href="/writing-portfolio/projects/sdk-documentation">
 					<div className={styles.overlay}>
 						<h2 className={styles.cardTitle}>SDK documentation</h2>
-						<p>Sendbird  |  October 2022</p>
+						<p>Sendbird  |  June 2022</p>
 					</div>
 				</a>
 				<a className={styles.card} href="/writing-portfolio/projects/user-guide">
 					<div className={styles.overlay}>
-						<p className={styles.cardTitle}>User guide</p>
+						<h2 className={styles.cardTitle}>User guide</h2>
+						<p>Sendbird  |  March 2022</p>
 					</div>
 				</a>
 				<a className={styles.card} href="/writing-portfolio/projects/concept-explainer">
 					<div className={styles.overlay}>
-						<p className={styles.cardTitle}>Concept explainer</p>
+						<h2 className={styles.cardTitle}>Concept explainer</h2>
+						<p>Codecademy  |  February 2025</p>
 					</div>
 				</a>
 				<a className={styles.card} href="/writing-portfolio/projects/method-terminology">
 					<div className={styles.overlay}>
-						<p className={styles.cardTitle}>Method terminology</p>
+						<h2 className={styles.cardTitle}>Method terminology</h2>
+						<p>Codecademy  |  December 2024</p>
 					</div>
 				</a>
 				<a className={styles.card} href="/writing-portfolio//projects/ux-writing">
 					<div className={styles.overlay}>
-						<p className={styles.cardTitle}>UX writing</p>
+						<h2 className={styles.cardTitle}>UX writing</h2>
+						<p>Kim & Chang  |  February 2020</p>
 					</div>
 				</a>
 			</section>

@@ -4,7 +4,7 @@
 }
 
 .workLayerTitle {
-  font-size: clamp(5rem, 3vw, 8rem);
+  font-size: clamp(3.5rem, 3vw, 6rem);
   margin: 3% 0 0 0;
   text-align: center;
   padding: 0 2rem 0 2rem;
@@ -32,6 +32,7 @@
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  color: black;
 
   background: 
   radial-gradient(at 10% 87%, hsla(217,100%,71%,0.75) 0px, transparent 50%),
@@ -45,8 +46,12 @@
 ;
 }
 
+[data-theme='dark'] .card {
+  color: #ffffff; /* Dark mode text color */
+}
+
 .cardTitle {
-  font-size: clamp(1.3rem, 2.5vw, 1.5rem);
+  font-size: clamp(1.4rem, 3vw, 3rem);
   margin: 0;
   padding: 0.5rem;
 }
@@ -68,9 +73,22 @@
   margin: 4% 0;
 }
 
+.overlay p {
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  text-align: left; /* Ensure text is always left-aligned */
+  margin: 0; /* Optional: Reset margin for consistency */
+  padding: 0; /* Optional: Reset padding for consistency */
+}
+
 .card:hover {
   text-decoration: none;
+  color: rgb(84, 84, 84);
 }
+
+[data-theme='dark'] .card:hover {
+  color: #ffffff; /* Dark mode text color */
+}
+
 
 .overlay:before {
   content: ''; /* Required for pseudo-elements */
