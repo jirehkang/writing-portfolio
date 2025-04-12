@@ -10,7 +10,7 @@
  
 :root {
   --ifm-font-family-base: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --ifm-color-primary: #b031ae;
+  --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -27,7 +27,7 @@ html, body {
 }
 
 body {
-  padding-top: 90px; /* Default padding to prevent overlap */
+  padding-top: 80px; /* Default padding to prevent overlap */
   margin: 0 2.5% 0 2.5%;
 }
 
