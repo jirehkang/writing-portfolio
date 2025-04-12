@@ -1,11 +1,19 @@
 import React from "react";
-import style from "./IntroSection.module.css";
+import styles from "./IntroSection.module.css";
 
 export default function IntroSection() {
 	return (
-		<section className={style.introSection}>
-			<h1>Jireh Kang</h1>
-			<h3>Technical Writer</h3>
-		</section>
+		<div className={styles.background}>
+			<section className={styles.introText}>
+				<div className={styles.introTextContainer}>
+					<p className={styles.myName}>Jireh</p>
+					<p className={styles.myName}>Kang</p>
+				</div>
+				<div className={styles.introTextContainer}>
+					<p className={styles.jobTitle}>Technical</p>
+					<p className={styles.jobTitle}>Writer</p>
+				</div>
+			</section>
+		</div>
 	);
 }

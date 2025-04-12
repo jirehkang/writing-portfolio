@@ -1,5 +1,41 @@
-.introSection {
-    min-height: 100vh;
-    padding: 4rem 2rem;
-    background-color: #EFD3F7;
-  }
+.background {
+  background: 
+  radial-gradient(at 10% 87%, hsla(217,100%,71%,0.75) 0px, transparent 50%),
+  radial-gradient(at 46% 3%, hsla(18,59%,72%,0.75) 0px, transparent 50%),
+  radial-gradient(at 93% 89%, hsla(211,93%,77%,0.75) 0px, transparent 50%),
+  radial-gradient(at 95% 35%, hsla(156,84%,74%,0.75) 0px, transparent 50%),
+  radial-gradient(at 73% 21%, hsla(215,88%,74%,0.75) 0px, transparent 50%),
+  radial-gradient(at 18% 9%, hsla(59,81%,76%,0.75) 0px, transparent 50%),
+  radial-gradient(at 52% 81%, hsla(344,71%,66%,0.75) 0px, transparent 50%),
+  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 243 243'%3E%3Cfilter id='noise'%3E%3CfeTurbulence baseFrequency='1.8' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' /%3E%3C/svg%3E");
+;
+  display: grid;
+  margin: 5%;
+  border-radius: 16px;
+}
+
+.introText {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin: 25%;
+}
+
+.introTextContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;         /* space between the names */
+    justify-content: center; /* center horizontally */
+    align-items: baseline;   /* align text on the same line */
+    margin: 0 0 3% 0
+}
+
+.myName {
+  font-size: clamp(4rem, 10vw, 8rem);
+  margin: 0;
+}
+
+.jobTitle {
+  font-size: clamp(2.2rem, 2.5vw, 4rem);
+  margin: 0;
+}
