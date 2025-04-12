@@ -1,11 +1,19 @@
 import React from "react";
-import style from "./AboutSection.module.css";
+import styles from "./AboutSection.module.css";
 
 export default function AboutSection() {
 	return (
-		<section className={style.aboutSection}>
-			<h2>About Me</h2>
-			<p>Hi, I'm a technical writer.</p>
-		</section>
+		<div className={styles.background}>
+			<section className={styles.introText}>
+				<div className={styles.introTextContainer}>
+					<p className={styles.myName}>Jireh</p>
+					<p className={styles.myName}>Kang</p>
+				</div>
+				<div className={styles.introTextContainer}>
+					<p className={styles.jobTitle}>Technical</p>
+					<p className={styles.jobTitle}>Writer</p>
+				</div>
+			</section>
+		</div>
 	);
 }
