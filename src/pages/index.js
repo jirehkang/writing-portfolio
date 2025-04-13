@@ -4,6 +4,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import IntroSection from "@site/src/components/IntroSection";
 import ProjectsSection from "@site/src/components/ProjectsSection";
+import ContactSection from "@site/src/components/ContactSection";
 // import ParallaxSection from "@site/src/components/ParallaxSection";
 // import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
@@ -42,6 +43,7 @@ export default function Home() {
 			<main>
 				<IntroSection />
 				<ProjectsSection />
+				<ContactSection />
 			</main>
 		</Layout>
 	);

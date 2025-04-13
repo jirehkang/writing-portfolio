@@ -6,6 +6,8 @@ export default function MyReactPage() {
 		<Layout>
 			<h1>My React page</h1>
 			<p>This is a React page</p>
+			<p>From the Midwest + Seoul, Korea</p>
+			<p>Currently based in San Francisco Bay Area</p>
 		</Layout>
 	);
 }

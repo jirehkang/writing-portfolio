@@ -34,7 +34,6 @@
 
 .myName {
   font-size: clamp(3.2rem, 10vw, 11rem);
-  font-weight: 400;
   margin: 0;
 }
 
@@ -58,7 +57,7 @@
 }
 
 .scrollIcon {
-  margin: 15% 0 0 0;
+  margin: 12% 0 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;

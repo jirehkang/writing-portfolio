@@ -4,8 +4,8 @@ import styles from "./ProjectsSection.module.css";
 export default function ProjectsSection() {
 	return (
 		<div className={styles.projectsContainer}>
-			<section className={styles.projectsLayerTitle}>
-				<p>Select Writing Projects</p>
+			<section className={styles.projectsTitle}>
+				<h2>Select Writing Projects</h2>
 			</section>
 			<section className={styles.cardContainer}>
 				<a

@@ -10,7 +10,7 @@ export default function IntroSection() {
 					<p className={styles.jobTitle}>Technical Writer</p>
 				</div>
 				<div className={styles.introTextContainer}>
-					<p className={styles.myName}>Jireh Kang</p>
+					<h1 className={styles.myName}>Jireh Kang</h1>
 				</div>
 				<div className={styles.descriptionContainer}>
 					<p>I craft user-friendly content,</p>
