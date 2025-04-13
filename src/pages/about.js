@@ -11,7 +11,7 @@ export default function MyReactPage() {
 					<h1>About</h1>
 					<p></p>
 					<p>
-						Hi, I’m a technical writer and content strategist based in the San
+						Hi, I'm a technical writer and content strategist based in the San
 						Francisco Bay Area.
 					</p>
 					<p>
@@ -25,9 +25,10 @@ export default function MyReactPage() {
 						built and styled this site as a fun side project.
 					</p>
 					<p>
-						Outside of work, I love sketching on my iPad (like the basket of my
-						favorite things you'll find here!), trying out new baking and
-						cooking recipes, and keeping up a 3+ year Duolingo streak.
+						Outside of work, you'll find me sketching on my iPad (like the
+						basket of my favorite things I've added here!), trying out new
+						baking and cooking recipes, and obsessively keeping up 3+ years of
+						Duolingo streak.
 					</p>
 					<p>
 						Connect with me via{" "}
