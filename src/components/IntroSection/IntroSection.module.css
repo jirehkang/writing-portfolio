@@ -13,12 +13,12 @@
   flex-direction: column;
   align-items: center;
   margin: 1.5% 3% 3% 3%;
-  padding: 13% 13% 30% 13%;
+  padding: 13% 13% 25% 13%;
   border-radius: 16px;
 }
 
 .introSection {
-  width: clamp(5rem, 3vw, 8rem);;
+  width: clamp(5rem, 3vw, 8rem);
 }
 
 .introTextContainer {
@@ -31,11 +31,15 @@
 }
 
 .myName {
-  font-size: clamp(3.6rem, 10vw, 13rem);
+  font-size: clamp(3.6rem, 10vw, 11rem);
   margin: 0;
 }
 
 .jobTitle {
   font-size: clamp(2.2rem, 2.5vw, 4rem);
   margin: 0;
+}
+
+.scrollIcon {
+  margin: 70% 0 0 0;
 }
