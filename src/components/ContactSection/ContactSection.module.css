@@ -1,0 +1,16 @@
+.contactContainer {
+    margin: 15% 0 8% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contactContainer h2 {
+    font-size: clamp(2rem, 5vw, 4rem);
+    margin-bottom: 35px;
+}
+
+.contactContainer p {
+    margin: 18px;
+}

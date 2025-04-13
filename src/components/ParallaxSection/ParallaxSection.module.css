@@ -1,0 +1,121 @@
+.background {
+    background: 
+      radial-gradient(at 10% 87%, hsla(217,100%,71%,0.75) 0px, transparent 50%),
+      radial-gradient(at 46% 3%, hsla(18,59%,72%,0.75) 0px, transparent 50%),
+      radial-gradient(at 93% 89%, hsla(211,93%,77%,0.75) 0px, transparent 50%),
+      radial-gradient(at 95% 35%, hsla(156,84%,74%,0.75) 0px, transparent 50%),
+      radial-gradient(at 73% 21%, hsla(215,88%,74%,0.75) 0px, transparent 50%),
+      radial-gradient(at 18% 9%, hsla(59,81%,76%,0.75) 0px, transparent 50%),
+      radial-gradient(at 52% 81%, hsla(344,71%,66%,0.75) 0px, transparent 50%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 243 243'%3E%3Cfilter id='noise'%3E%3CfeTurbulence baseFrequency='1.8' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' /%3E%3C/svg%3E");
+    ;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* Intro Section */
+  
+  .introText {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 25%;
+  }
+  
+  .introTextContainer {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;         /* space between the names */
+      justify-content: center; /* center horizontally */
+      align-items: baseline;   /* align text on the same line */
+      margin: 0 0 3% 0
+  }
+  
+  .myName {
+    font-size: clamp(4rem, 10vw, 8rem);
+    margin: 0;
+  }
+  
+  .jobTitle {
+    font-size: clamp(2.2rem, 2.5vw, 4rem);
+    margin: 0;
+  }
+  
+  /* Work Section */
+  
+  .workContainer {
+    display: grid;
+    margin: 0
+  }
+
+  .workLayerTitle {
+    font-size: clamp(5rem, 3vw, 8rem);
+    margin: 0;
+    text-align: center;
+    padding: 0 2rem 0 2rem;
+  }
+
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); /* Responsive grid */
+    gap: 2.5rem; /* Add spacing between cards */
+    width: 100%; /* Full width of the screen */
+    padding: 1rem 5rem 0 5rem; 
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  .card {
+    width: 100%; /* Adjust to fit the grid column */
+    height: 12rem;  /* Fixed height */
+    border: 1px solid;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardTitle {
+    font-size: clamp(1.3rem, 2.5vw, 1.5rem);
+    margin: 0;
+    padding: 0.5rem;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .cardContainer {
+      grid-template-columns: 1fr; /* Single column layout */
+    }
+    .card {
+      background-image: linear-gradient(to right, #ff6d6d, #5b65ad);
+      transition: top 0.3s ease-in-out;
+    }
+  }
+  
+
+
+  /*
+  .parallax {
+  margin-right: 15%;
+  }
+  
+  .sticky {
+  margin-left: 15%;
+  background-color: #ff6d6d;
+  }
+  
+  .blue {
+  background-color: #5b65ad;
+  color: white;
+  }
+  
+  .purple {
+  background-color: #9d65d0;
+  }
+  */
