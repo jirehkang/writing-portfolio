@@ -1,11 +1,11 @@
-.workContainer {
+.projectsContainer {
   display: grid;
   margin: 3%;
 }
 
-.workLayerTitle {
-  font-size: clamp(3.5rem, 3vw, 6rem);
-  margin: 3% 0 0 0;
+.projectsLayerTitle {
+  font-size: clamp(2rem, 4vw, 7rem);
+  margin: 3% 0;
   text-align: center;
   padding: 0 2rem 0 2rem;
 }

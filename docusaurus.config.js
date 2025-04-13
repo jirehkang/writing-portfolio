@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: "Jireh's Writing Portfolio",
+	title: "Jireh Kang's Writing Portfolio",
 	tagline: "Technical Writing, UX Writing, and More",
 	favicon: "img/favicon-j.ico",
 
@@ -138,7 +138,7 @@ const config = {
 				// 		],
 				// 	},
 				// ],
-				copyright: `Copyright © ${new Date().getFullYear()} Jireh's Writing Portfolio. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} Jireh Kang's Writing Portfolio. Built with Docusaurus.`,
 			},
 			prism: {
 				theme: prismThemes.github,
