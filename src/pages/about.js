@@ -32,7 +32,7 @@ export default function MyReactPage() {
 					<p>
 						Connect with me via{" "}
 						<a href="mailto:jireh.k.kang@gmail.com">email</a> or{" "}
-						<a href="https://www.linkedin.com/in/jirehkang/">LinkedIn!</a>
+						<a href="https://www.linkedin.com/in/jirehkang/">LinkedIn</a>!
 					</p>
 				</div>
 			</div>
