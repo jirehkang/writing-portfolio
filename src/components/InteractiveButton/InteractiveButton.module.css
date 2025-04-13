@@ -23,6 +23,10 @@
   white-space: nowrap;
 }
 
+.interactiveButton p {
+  margin: 0;
+}
+
 .interactiveButton:not([disabled]):focus {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(47, 130 , 133, 0.5), .125rem .125rem 1rem rgba(32, 218, 255, 0.5);
 }
