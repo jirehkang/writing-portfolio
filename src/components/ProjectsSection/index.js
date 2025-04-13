@@ -55,7 +55,7 @@ export default function ProjectsSection() {
 				</a>
 				<a
 					className={styles.card}
-					href="/writing-portfolio//projects/ux-writing"
+					href="/writing-portfolio/projects/ux-writing"
 				>
 					<div className={styles.overlay}>
 						<h2 className={styles.cardTitle}>UX writing</h2>
