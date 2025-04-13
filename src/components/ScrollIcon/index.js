@@ -8,8 +8,8 @@ export default function ScrollIcon() {
 			loop
 			autoplay
 			style={{
-				height: "clamp(3.5rem, 3vw, 5rem)",
-				width: "clamp(3.5rem, 3vw, 5rem)",
+				height: "clamp(3rem, 4vw, 5rem)",
+				width: "clamp(3rem, 4vw, 5rem)",
 			}}
 		/>
 	);

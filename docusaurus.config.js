@@ -10,9 +10,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: "Jireh's Writing Portfolio",
+	title: "Jireh Kang's Writing Portfolio",
 	tagline: "Technical Writing, UX Writing, and More",
-	favicon: "img/favicon-j.ico",
+	favicon: "img/jk-logo.ico",
 
 	// Set the production url of your site here
 	url: "https://jirehkang.github.io",
@@ -73,12 +73,12 @@ const config = {
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
 			// Replace with your project's social card
-			image: "img/docusaurus-social-card.jpg",
+			image: "img/jirehkang-logo.png",
 			navbar: {
-				title: "Jireh's Portfolio",
+				title: "Jireh Kang",
 				logo: {
-					alt: "My Site Logo",
-					src: "img/logo-j.svg",
+					alt: "Jireh Kang's Portfolio Logo",
+					src: "img/jirehkang-logo.svg",
 				},
 				items: [
 					{
@@ -86,6 +86,11 @@ const config = {
 						sidebarId: "tutorialSidebar",
 						position: "left",
 						label: "Projects",
+					},
+					{
+						to: "/about",
+						position: "left",
+						label: "About",
 					},
 					// { to: "/blog", label: "Blog", position: "left" },
 					{
@@ -138,7 +143,7 @@ const config = {
 				// 		],
 				// 	},
 				// ],
-				copyright: `Copyright © ${new Date().getFullYear()} Jireh's Writing Portfolio. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} Jireh Kang's Writing Portfolio. Built with Docusaurus.`,
 			},
 			prism: {
 				theme: prismThemes.github,

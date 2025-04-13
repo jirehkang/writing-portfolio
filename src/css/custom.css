@@ -10,19 +10,84 @@
  
 :root {
   --ifm-font-family-base: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --ifm-color-primary: #b031ae;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* --ifm-color-primary: #2e8555; */
+  --ifm-color-primary: rgb(46, 130, 133);
+  --ifm-color-primary-dark: rgb(41, 120, 126);
+  --ifm-color-primary-darker: rgb(39, 113, 122);
+  --ifm-color-primary-darkest: rgb(32, 93, 149);
+  --ifm-color-primary-light: rgb(51, 146, 143);
+  --ifm-color-primary-lighter: rgb(53, 153, 148);
+  --ifm-color-primary-lightest: rgb(60, 173, 160);
   --ifm-code-font-size: 95%;
+  --ifm-button-background-color: #051b0f;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-font-family-base: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --ifm-color-primary: rgb(37, 184, 180);
+  --ifm-color-primary-dark: rgb(33, 175, 194);
+  --ifm-color-primary-darker: rgb(31, 165, 186);
+  --ifm-color-primary-darkest: rgb(26, 136, 162);
+  --ifm-color-primary-light: rgb(41, 213, 226);
+  --ifm-color-primary-lighter: rgb(50, 216, 230);
+  --ifm-color-primary-lightest: rgb(79, 221, 241);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
 html, body {
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding-top: 80px; /* Default padding to prevent overlap */
+  margin: 0 2.5% 0 2.5%;
+}
+
+.navbar {
+  position: fixed; /* Fix the navbar at the top */
+  top: 0; /* Align it to the top of the viewport */
+  left: 0; /* Align it to the left */
+  right: 0; /* Align it to the right */
+  z-index: 1000; /* Ensure it stays above other elements */
+  background-color: #ffffff; /* Light mode background */
+  color: #000000; /* Light mode text color */
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  margin: 0 3% 0 3%; /* Remove margin to avoid gaps */
+  padding: 1rem 1rem; /* Add padding for spacing */
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 15%);
+}
+
+[data-theme='dark'] .navbar {
+  background-color: #1a1a1a; /* Dark mode background */
+  color: #ffffff; /* Dark mode text color */
+}
+
+/* Adjust padding for smaller screens */
+@media (max-width: 768px) {
+  body {
+    padding-top: 100px; /* Increase padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-top: 120px; /* Further increase padding for very small screens */
+  }
+}
+
+.footer {
+  background-color: #ffffff; /* Light mode background */
+  color: #000000; /* Light mode text color */
+  padding: 2rem 0; /* Add padding */
+}
+
+[data-theme='dark'] .footer {
+  background-color: #1a1a1a; /* Dark mode background */
+  color: #ffffff; /* Dark mode text color */
 }
 
 a {
@@ -33,15 +98,3 @@ a {
 }
 
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-font-family-base: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
