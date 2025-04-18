@@ -5,7 +5,7 @@ export default function ProjectsSection() {
 	return (
 		<div className={styles.projectsContainer}>
 			<section className={styles.projectsTitle}>
-				<h2>Select Writing Projects</h2>
+				<h2>Select writing projects</h2>
 			</section>
 			<section className={styles.cardContainer}>
 				<a
