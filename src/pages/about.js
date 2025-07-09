@@ -30,16 +30,9 @@ export default function MyReactPage() {
 						the kitchen, or obsessively keeping up a 3+ year Duolingo streak.
 					</p>
 					<p>
-						Take a look at my{" "}
-						<a
-							href="files/jireh-kang-resume.pdf"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							resume
-						</a>{" "}
-						or reach out via <a href="mailto:jireh.k.kang@gmail.com">email</a>{" "}
-						or <a href="https://www.linkedin.com/in/jirehkang/">LinkedIn</a>!
+						Feel free to reach out via{" "}
+						<a href="mailto:jireh.k.kang@gmail.com">email</a> or{" "}
+						<a href="https://www.linkedin.com/in/jirehkang/">LinkedIn</a>!
 					</p>
 				</div>
 			</div>
